@@ -8,7 +8,7 @@ class trabajador:
         self.tardanza   = tardanza
     
     def nombreCompleto(self):
-        return f'\n Nombre                 : {self.name}{self.lastname} \n Categoria              : {self.categoria}\n Horas Extra            : {self.horasExtr}\n Tardanza (minutos)     : {self.tardanza}'
+        return f'\n Nombre                 : {self.name} {self.lastname} \n Categoria              : {self.categoria}\n Horas Extra            : {self.horasExtr}\n Tardanza (minutos)     : {self.tardanza}'
 
 class boleta(trabajador):
     def __init__(self, name=str, lastname=str, categoria=str, horasExtr=int, tardanza=int):
