@@ -38,8 +38,8 @@ class boleta(trabajador):
 
 def main():
 
-    
-    print(f'\n 1|-Ingresar nuevos datos \n 2|-Exit \n')
+    print("\n FERROTEK SAC \n ")
+    print(f' 1|-Ingresar nuevos datos \n 2|-Exit \n')
     opcion = int(input('> '))
     if opcion == 1:
         nombre          = str(input('\n Nombre                 : '))
